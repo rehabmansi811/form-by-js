@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="size">
+        <div>LAB | Intermediate </div>
+        <div class="handel">
+        <div class='star'></div>
+        <div class='star'></div>
+        <div class='star'></div></div>
+    </div>
+    <section>
+        <fieldset>
+            <legend class="text-center">
+                <span style="border: 1px solid gold ;"> <span style="color: rgb(15, 73, 235);"> Validator </span>
+                    Game</span>
+            </legend>
+            <br>
+            <form id="myform">
+                <label>Name</label>
+                <input placeholder="user name " id="username" type="text" required>
+                <br><br>
+                <label>Email</label>
+                <input placeholder="user Email " id="useremail" type="email">
+                <br><br>
+                <label>password</label>
+                <input placeholder="password " id="userpass" type="password" minlength="8">
+                <br><br>
+                <label title="select your gender">Gender</label>
+                <input type="radio" name="gender" value="female" /><b>Female</b>
+                <input type="radio" name="gender" value="female" /><b>male</b>
+                <br><br>
+                <label title="selest at lest 2 sports">Sports</label>
+
+                <input type="checkbox" name="opt2" value="tennis" /><b>tennis</b>
+                <input type="checkbox" name="opt2" value="Running" /><b>Running</b>
+                <input type="checkbox" name="opt1" value="football" /><b>football</b>
+                <br><br>
+                <label title="select your country">country</label>
+                <select name="country">
+                    <option>egy</option>
+                    <option>us</option>
+                    <option>Au</option>
+
+                </select>
+                <br>
+                <br>
+
+                <span><button id="sub" type="submit">submit</button> </span>
+                <span> <button id="res" type="reset">reset</button></span>
+
+
+
+            </form>
+        </fieldset>
+    </section>
+    <div class="left"> JS </div>
+</body>
+<script src="main.js"></script>
+
+</html>
